@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+p {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+span {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+h2 {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.swal2-custom-popup {
+  font-size: 16px;
+  max-width: 80%;
+  border-radius: 25px;
+  color: #5b5b5b;
+}
+.swal2-custom-popup h2 {
+  padding-bottom: 10px;
+}
+.swal2-custom-popup p {
+  text-align: left;
+  padding: 0 2.3em 0.1em;
+}
+.swal2-custom-popup .arr {
+  display: flex;
+  justify-content: space-between;
+}
+.swal2-custom-popup input {
+  border-radius: 30px;
+  border: 1px solid #878787;
+}
+.swal2-custom-popup .swal2-input-select {
+  height: 2.625em;
+  width: 6.625em;
+  border: 1px solid #878787;
+  font-size: 20px;
+  padding: 0 0.75em;
+  border-radius: 30px;
+  margin: 1em 0em 0px;
+  margin-left: 10px;
+  outline-style: none;
+}
+.swal2-custom-popup .swal2-input {
+  font-size: 20px;
+  padding: 0 0.75em;
+  margin: 1em 0 0;
+  padding: 0 15px;
+  margin-right: 10px;
+}
+.swal2-custom-popup .swal2-confirm {
+  border-radius: 25px;
+  background-color: #b0b0b0;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.swal2-custom-popup .swal2-cancel {
+  border-radius: 25px;
+  background-color: #b0b0b0;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.DeviceManagement-custom-popup {
+  max-height: 550px;
+  overflow-y: auto;
+}
+.DeviceManagement-custom-popup p {
+  text-align: center;
+  font-size: 19px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,108 @@
+// $dark01:#e2e2e2;
+// $dark02:#c4c4c4;
+// $dark03:#b0b0b0;
+// $white:#FDFDFB;
+// $black:#878787;
+// $black1:#5b5b5b;
+
+
+$dark01:#e7e6e5;
+$dark02:#d8d9d9;
+$dark03:#71767b;
+$white:#FDFDFB;
+$black:#91a6b8;
+$black1:#2d2d2d;
+
+*{
+    margin: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+p{
+    font-family: "Noto Sans TC", sans-serif;
+}
+span{
+    font-family: "Noto Sans TC", sans-serif;
+}
+h2{
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+// 自定義彈出視窗的樣式
+// 用到的位置有前台首頁公告元件、新增設備彈窗(BookMark中)
+.swal2-custom-popup {
+    font-size: 16px;
+    max-width: 80%;
+    border-radius: 25px;
+    color: $black1;
+    h2{
+        padding-bottom: 10px;
+    }
+    p{
+      text-align: left; 
+      padding: 0 2.3em 0.1em;
+    }
+    
+    .arr{
+        display: flex;
+        justify-content: space-between;
+    }
+    input{
+        border-radius: 30px;
+        border: 1px solid $black;
+        
+    }
+    //下拉選單式樣
+    .swal2-input-select{
+        height: 2.625em;
+        width: 6.625em;
+        border: 1px solid $black;
+        font-size: 20px;
+        padding: 0 .75em;
+        border-radius: 30px;
+        margin: 1em 0em 0px;
+        margin-left: 10px;
+        outline-style: none;
+        
+    }
+    //設備名稱輸入式樣
+    .swal2-input{
+        font-size: 20px;
+        padding: 0 .75em;
+        margin: 1em 0 0;
+        padding: 0 15px;
+        margin-right: 10px;
+        
+    }
+    .swal2-confirm {
+        border-radius: 25px;
+        background-color: $black;
+        height: 50px;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .swal2-cancel {
+        border-radius: 25px;
+        background-color: $black;
+        height: 50px;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    
+}
+.DeviceManagement-custom-popup {
+    max-height: 550px; // 設置彈窗最大高度
+    overflow-y: auto; // 啟用垂直滾動條
+    p{
+       text-align: center; 
+       font-size: 19px;
+    }
+    .large-text {
+        font-size: 20px; 
+    }
+}
+
+
+
+
